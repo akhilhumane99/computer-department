@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+
+<section>
+  <nav>
+    <li><a href="#"><a href=faculty.html>Faculty</a></a></li>
+      
+  </nav>
+  
+  <article>
+    <h1>Dr. Arvind W. Kiwelekar</h1>
+    <p>Associate Professor and Head
+Ph. D. Indian Institute of Technology, Mumbai (2012)
+M. E. (Computer), Veermata Jijabai Technical Institute Mumbai (1999)</p>
+<p>
+B. E. (CSE), S. G. G.S. College of Engineering & Technology, Nanded (1991)
+Phone No:9890456659
+Email:awkiwelekar@dbatu.ac.in
+Research Interests:
+• Software Engineering, Software Architecture
+• Applied Artificial Intelligence
+• Ontology
+</p>
+<p>
+Selected Recent Publications: (My DBLP Entry Google Scholar Profile)
+<ul>
+<li>
+1. Arvind W. Kiwelekar and Rushikesh K. Joshi. Ontological Interpretation of Object-Oriented Programming Abstractions, In the proceedings 13th International Working Conference on Source Code Analysis and Manipulation (SCAM 2013) held in Eindhoven, Netherlands, September 22-23, 2013 Pages 180-190.
+</li>
+<li>
+2. Gaurav Paliwal, Arvind W. Kiwelekar: A Comparison of Mobile Patient MonitoringSystems. in the Proceeding of Second International Conference on Health Information Systems (HIS 2013): 198-209 Publisher Springer
+</li>
+<li>
+3. Arvind W. Kiwelekar and Rushikesh K. Joshi. Identifying architectural connectorsthrough formal concept analysis of communication primitives. In Software Architecture, 4th European Conference, ECSA 2010, Copenhagen, Denmark, August 23-26,2010. Proceedings, pages 515518, 2010 Rank A Conferance (www.core.edu.au)
+</li>
+<li>
+4. Arvind W. Kiwelekar and Rushikesh K. Joshi. Ontological analysis for generating baseline architectural descriptions. In Software Architecture, 4th European Conference, ECSA 2010, Copenhagen, Denmark, August 23-26, 2010. Proceedings, pages 417424, 2010 Rank A Conferance (www.core.edu.au)
+</li>
+<li>
+5. Arvind W. Kiwelekar and Rushikesh K. Joshi. Extracting high-level Component Connector view from detailed UML models: A case study. In 31st Annual International Computer Software and Applications Conference (COMPSAC 2007), 24-27 July 2007, Beijing, China, pages 527534, 2007 Rank B Conferance (www.core.edu.au)
+</li>
+<li>
+6. Arvind W Kiwelekar and Rushikesh K Joshi. An object oriented metamodel for Bunge-Wand-Weber ontology. In Proc. of SWeCKa 2007, Workshop on Semantic Web for Collaborative Knowledge Acquisition at IJCAI 2007, January 2007 Rank A Conferance(www.core.edu.au)
+</li>
+</ul>
+</p>
+
+
+    
+  </article>
+</section>
+
+
+</body>
+</html>
+
+
+
